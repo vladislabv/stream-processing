@@ -9,6 +9,6 @@
 - [ ] Definitionsmapping
 
 * Vitali:
-- [ ] Vorlage für Slides vorbereiten (MS Office)
+- [x] Vorlage für Slides vorbereiten (MS Office)
 - [ ] Stichpunkte überprüfen
-- [ ] "Wann Stream Processing" – Einleitung vorbereiten 
+- [x] "Wann Stream Processing" – Einleitung vorbereiten 

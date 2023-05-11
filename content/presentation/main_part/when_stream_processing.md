@@ -32,6 +32,9 @@ _cite: Hueske (S. 27 ff.)_
 
 ### Stateful Stream Processing
 
+_cite: Hueske (S. 30 ff.)_
+
+
 ### A bit of history
 - Some of the first research prototypes and commercial products date back to the late 1990s
 - Grown by availability of mature open source stream processors and many open source communities
@@ -43,8 +46,9 @@ _cite: Hueske (S. 27 ff.)_
 - At this point in time (first open source stream processor) could either provide fast or accurate results (*lambda architecture*)
 - Lambda architecture augments traditional batch processing architecture with a speed-layer that is powered by a low-latency stream prcoessor
 - Lambda is not state of art, but still used in many places
-- Goal of Lambda was 
-- Secont generation of open source processors (2013) 
-- Thirs generation of open source processors (2015) 
+- Goal of Lambda was to improve the high result latency of the original batch nalytics archictecture
+- Lambda drawbacks: two implementations of the application (two separate processing systems with different APIs), stream results are only approcimated, hard to setup and maintain
+- Second generation of open source processors (2013) better failure guarantees and ensured that in case of a failure each input record affects the sult exactly once, evolved form low-lvl-api to hgih-lvl APIs, but came with the cost of increaing processing latencies from milliseconds to seconds. Still dependend on timing and order of arriving events
+- Third generation of open source processors (2015) adressed the dependency of results on the timing and order of arriving events. In combination with exactly-once failure semantics, systems improved consistent and accurate results. Was able to process historical data like "live" data. Lambda become obsolete, because of high throughput and low latency.
 
 _cite: Hueske (S. 39 ff.)_

@@ -1,0 +1,35 @@
+@Book{Hueske,
+  author    = {Hueske, Fabian and Kalavri, Vasiliki},
+  publisher = {O'Reilly Media},
+  title     = {Stream Processing with Apache Flink Fundamentals, Implementation, and Operation of Streaming Applications},
+  year      = {2019},
+  isbn      = {9781491974292},
+  subtitle  = {Fundamentals, Implementation, and Operation of Streaming Applications},
+}
+
+@Book{Kreps,
+  author    = {Jay Kreps},
+  publisher = {O'Reilly Media},
+  title     = {I Heart Logs: Event Data, Stream Processing, and Data Integration},
+  year      = {2014},
+  isbn      = {9781491909331},
+}
+
+@article{feick2018fundamentals,
+  title={Fundamentals of real-time data processing architectures lambda and kappa},
+  author={Feick, Martin and Kleer, Niko and Kohn, Marek},
+  journal={SKILL 2018-Studierendenkonferenz Informatik},
+  year={2018},
+  publisher={Gesellschaft f{\"u}r Informatik eV}
+}
+
+@Book{Kleppmann,
+  author    = {Kleppmann, Martin},
+  publisher = {O'Reilly Media},
+  title     = {Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems},
+  year      = {2017},
+  isbn      = {9781449373320},
+  month     = {March},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

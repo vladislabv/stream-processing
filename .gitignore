@@ -1,0 +1,11 @@
+/.idea
+Code/venv/
+Code/wikipedia_mining/wikipedia_mining/spiders/__pycache__/
+Code/wikipedia_mining/wikipedia_mining/__pycache__/
+Code/wikipedia_mining/assets
+Code/wikipedia_mining/open_ai/open_ai_key.py
+venv/
+__pycache__/
+Code/wikipedia_mining/docs/_build/
+*.tmp
+.$*
